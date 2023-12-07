@@ -10,8 +10,8 @@ const Dashboard = () => {
       <main class="main-content">
       <div class="cards">
         <div class="card">
-          <div class="name"><h3>Blood donated</h3></div>
-          <div class="num"><h3>100</h3></div>
+          <div class="name"><h4>Blood donated</h4></div>
+          <div class="num"><h4>100</h4></div>
         </div>
 
       </div>
