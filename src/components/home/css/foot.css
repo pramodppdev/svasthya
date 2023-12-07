@@ -1,9 +1,7 @@
-/* Footer.css */
-
 .footer {
     display: flex;
     justify-content: space-around;
-    background-color: #f2c2c2;
+    background-color: #9f9c9c;
     color: #fff;
     padding: 20px;
   }
@@ -11,6 +9,18 @@
   .footer-column {
     text-align: center;
   }
+
+  img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer-column a{
+    text-decoration: none;
+    color: #fff;
+
+  }
+
   
   .footer-column h4 {
     margin-bottom: 10px;

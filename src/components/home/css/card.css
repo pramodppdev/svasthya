@@ -1,0 +1,42 @@
+/* CardView.css */
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(233, 224, 212);
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    background-color: rgb(211, 213, 214);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 50px;
+    width: 350px;
+  }
+  
+
+  .card img {
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    height: 250px;
+  }
+  
+  .card-row {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  }
+  
