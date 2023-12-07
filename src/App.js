@@ -16,7 +16,7 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" component={Index}></Route>
-          
+          <Route exact path="/nav" component={TopNavbar}></Route>         
           <Route exact path="/dashboard" component={Dashboard}></Route>
           <Route exact path="/foot" component={Footer}></Route>
           <Route exact path="/card" component={CardView}></Route>
