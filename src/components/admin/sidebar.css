@@ -7,6 +7,7 @@
   background-color: #e9a019;
   padding-top: 20px;
   color: white;
+  
 }
 
 .sidebar h2 {
@@ -17,6 +18,7 @@
 .sidebar ul {
   list-style: none;
   padding: 0;
+  display: block;
 }
 
 .sidebar li {
@@ -44,8 +46,14 @@ border-radius: 10px;
     position: relative;
     margin-bottom: 10px;
     height: 20vh;
+  
   }
-
+  .sidebar ul{
+    display: inline;
+  }
+  .sidebar li{
+    display: inline-flex;
+  }
   .main-content {
     margin-left: 0;
   }
