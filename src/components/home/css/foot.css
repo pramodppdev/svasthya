@@ -10,10 +10,7 @@
     text-align: center;
   }
 
-  img{
-    width: 25px;
-    height: 25px;
-  }
+  
 
   .footer-column a{
     text-decoration: none;
@@ -32,6 +29,10 @@
     margin-top: 10px;
   }
   
+  .social-icons img{
+    width: 25px;
+    height: 25px;
+  }
   .social-icon {
     font-size: 1.5em;
     color: #fff;
@@ -50,7 +51,8 @@
     }
   
     .social-icons {
-      flex-direction: column;
+      margin: 20px;
+      flex-wrap: wrap;
     }
   }
   

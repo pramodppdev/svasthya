@@ -22,11 +22,15 @@ const Footer = () => {
       <div className="footer-column">
         <h4>Follow Us</h4>
         <div className="social-icons">
+          {/* Add your social media icons here */}
           <img src={facebook} className="social-icon">
+            {/* Facebook icon */}
           </img>
           <img src={facebook} className="social-icon">
+            {/* Instagram icon */}
           </img>
           <img src={facebook} className="social-icon">
+            {/* Twitter icon */}
           </img>
         </div>
       </div>
