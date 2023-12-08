@@ -1,11 +1,10 @@
 import React from 'react';
 import './css/index.css';
 import TopNavbar from './nav';
-import CardView from './card_view';
 import Footer from './footer';
-import ImageCarousel from './coursel';
+import AboutUs from './about';
 
-const Index = () => {
+const AboutPage = () => {
   return (
     <div className="container-wrapper">
       <div className="container">
@@ -13,12 +12,10 @@ const Index = () => {
    
       </div>
       <div className="container">
-        <ImageCarousel/>
+        <AboutUs/>
       </div>
 
-      <div className="container">
-        <CardView/>
-      </div>
+    
 
       <div className="container">
         <Footer/>
@@ -30,4 +27,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default AboutPage;

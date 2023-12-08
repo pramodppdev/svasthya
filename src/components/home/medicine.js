@@ -1,23 +1,20 @@
 import React from 'react';
 import './css/index.css';
 import TopNavbar from './nav';
-import CardView from './card_view';
 import Footer from './footer';
-import ImageCarousel from './coursel';
+import MedicineRequestForm from './medicineReq';
 
-const Index = () => {
+const MedicinePage = () => {
   return (
     <div className="container-wrapper">
       <div className="container">
         <TopNavbar/>
    
       </div>
-      <div className="container">
-        <ImageCarousel/>
-      </div>
 
       <div className="container">
-        <CardView/>
+        <h3>Medicine Request</h3>
+        <MedicineRequestForm/>
       </div>
 
       <div className="container">
@@ -30,4 +27,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default MedicinePage;

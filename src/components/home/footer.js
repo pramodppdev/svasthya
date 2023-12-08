@@ -1,33 +1,38 @@
-// Footer.js
-
 import React from 'react';
-import './Footer.css';
+import './css/foot.css';
+import facebook from  './imgs/facebook.png'
+import insta from './imgs/insta.png'
+import tweet from './imgs/x.png'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-column">
-        <h4>Name</h4>
-        <p>Your Name</p>
-        <p>Your Address</p>
+        <h4>Svasthya</h4>
+        <p>Health is Wealth</p>
+        <p></p>
       </div>
       <div className="footer-column">
-        <h4>Quote</h4>
-        <p>"Your Quote"</p>
+        <p>
+          <a href='/dashboard'>Admin</a>
+        </p>
+        <p>
+          <a href='/dashboard'>Carrers</a>
+        </p>
+        <p>
+          <a href='/about'>About us</a>
+        </p>
+
       </div>
       <div className="footer-column">
         <h4>Follow Us</h4>
         <div className="social-icons">
-          {/* Add your social media icons here */}
-          <a href="#" className="social-icon">
-            {/* Facebook icon */}
-          </a>
-          <a href="#" className="social-icon">
-            {/* Instagram icon */}
-          </a>
-          <a href="#" className="social-icon">
-            {/* Twitter icon */}
-          </a>
+          <img src={facebook} className="social-icon">
+          </img>
+          <img src={insta} className="social-icon">
+          </img>
+          <img src={tweet} className="social-icon">
+          </img>
         </div>
       </div>
     </footer>

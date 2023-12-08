@@ -1,16 +1,24 @@
-/* Footer.css */
-
 .footer {
     display: flex;
     justify-content: space-around;
-    background-color: #f2c2c2;
-    color: #fff;
+    background-color: #e6e5e5;
+    color: #141111;
     padding: 20px;
+    height: 50vh;
   }
   
   .footer-column {
     text-align: center;
   }
+
+  
+
+  .footer-column a{
+    text-decoration: none;
+    color: #312d2d;
+
+  }
+
   
   .footer-column h4 {
     margin-bottom: 10px;
@@ -22,9 +30,13 @@
     margin-top: 10px;
   }
   
+  .social-icons img{
+    width: 25px;
+    height: 25px;
+  }
   .social-icon {
     font-size: 1.5em;
-    color: #fff;
+    color: #cfb4b4;
     text-decoration: none;
     margin: 0 10px;
   }
@@ -40,7 +52,8 @@
     }
   
     .social-icons {
-      flex-direction: column;
+      margin: 20px;
+      flex-wrap: wrap;
     }
   }
   
