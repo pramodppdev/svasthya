@@ -4,57 +4,59 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #e9a019;
+  background-color: #e0a919;
   padding-top: 20px;
-  color: white;
-  
+  color: beige;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
 }
 
 .sidebar h2 {
-  padding: 0;
   text-align: center;
 }
 
 .sidebar ul {
   list-style: none;
   padding: 0;
-  display: block;
+  margin-left: 2px;
 }
 
 .sidebar li {
   padding: 10px;
-  text-align: left;
-  margin: 20px;
-  color: #f1f1f1;
+  text-align: center;
 }
 .sidebar li:hover{
-background-color: beige;
-color: #e9a019;
-border-radius: 10px;
+  background-color: beige;
+  border-radius: 10px 0 0 10px;
+  color: #e0a919;
 }
+.sidebar button{
+margin-right: 10px;
+background-color: transparent;
+border: 2px solid beige;
+color: beige;
+}
+
 .sidebar a{
   text-decoration: none;
-}
-.main-content {
-  margin-left: 250px;
-  padding: 20px;
+  color: beige;
 }
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 100%;
+    width: 1200px;
     position: relative;
     margin-bottom: 10px;
-    height: 20vh;
-  
+    height: 260px;
   }
-  .sidebar ul{
-    display: inline;
+  .sidebar li:hover{
+    background-color: #e0a919;
+    color: beige;
+    
   }
-  .sidebar li{
-    display: inline-flex;
-  }
-  .main-content {
-    margin-left: 0;
-  }
+ .sidebar button{
+  margin-left: 135px;
+  border-radius: 5px;
+ 
+ }
 }
