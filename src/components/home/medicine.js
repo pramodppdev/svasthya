@@ -6,18 +6,18 @@ import MedicineRequestForm from './medicineReq';
 
 const MedicinePage = () => {
   return (
-    <div className="container-wrapper">
-      <div className="container">
+    <div className="container-wrapper-land">
+      <div className="container-land">
         <TopNavbar/>
    
       </div>
 
-      <div className="container">
+      <div className="container-land">
         <h3>Medicine Request</h3>
         <MedicineRequestForm/>
       </div>
 
-      <div className="container">
+      <div className="container-land">
         <Footer/>
 
 

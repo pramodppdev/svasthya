@@ -6,18 +6,18 @@ import AboutUs from './about';
 
 const AboutPage = () => {
   return (
-    <div className="container-wrapper">
-      <div className="container">
+    <div className="container-wrapper-land">
+      <div className="container-land">
         <TopNavbar/>
    
       </div>
-      <div className="container">
+      <div className="container-land">
         <AboutUs/>
       </div>
 
     
 
-      <div className="container">
+      <div className="container-land">
         <Footer/>
 
 

@@ -7,20 +7,20 @@ import ImageCarousel from './coursel';
 
 const Index = () => {
   return (
-    <div className="container-wrapper">
-      <div className="container">
+    <div className="container-wrapper-land">
+      <div className="container-land">
         <TopNavbar/>
    
       </div>
-      <div className="container">
+      <div className="container-land">
         <ImageCarousel/>
       </div>
 
-      <div className="container">
+      <div className="container-land">
         <CardView/>
       </div>
 
-      <div className="container">
+      <div className="container-land">
         <Footer/>
 
 

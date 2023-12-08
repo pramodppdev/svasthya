@@ -6,9 +6,9 @@ import Medicine from './imgs/medicine.png'
 
 const CardView = () => {
   return (
-    <div className="card-container">
+    <div className="card-container-land">
       <a href='/blog'>
-      <div className="card">
+      <div className="card-land">
         <div className="card-row">
           <img src={Fitness} alt="Card Image" />
         </div>
@@ -18,7 +18,7 @@ const CardView = () => {
       </div>
       </a>
       <a href='/blood'>
-      <div className="card">
+      <div className="card-land">
         <div className="card-row">
           <img src={Blood} alt="Card Image" />
         </div>
@@ -28,7 +28,7 @@ const CardView = () => {
       </div>
       </a>
       <a href='/medicine'>
-      <div className="card">
+      <div className="card-land">
         <div className="card-row">
           <img src={Medicine} alt="Card Image" />
         </div>

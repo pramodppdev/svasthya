@@ -14,7 +14,7 @@ const TopNavbar = () => {
           <Link to="/"><li>Home</li></Link>
           <Link to="/blog"><li>Blog</li></Link>
           <Link to="/about"><li>About</li></Link>
-          <Link to="/dashboard"><li>Dashboard</li></Link>
+          <Link to="/login"><li>Dashboard</li></Link>
         </ul>
       </div>
     </div>

@@ -1,3 +1,4 @@
+
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -16,6 +17,12 @@ import MedicinePage from './components/home/medicine';
 import ImageCarousel from './components/home/coursel';
 import AboutUs from './components/home/about';
 import AboutPage from './components/home/abtPage';
+import BloodDash from './components/admin/BloodDash';
+import Login from './components/admin/Login';
+import RequestBlood from './components/admin/requested';
+import DonateBlood from './components/admin/donated';
+import MedicineDash from './components/admin/MedicineDash';
+
 
 function App() {
   return (
@@ -36,6 +43,19 @@ function App() {
           <Route exact path="/img" component={ImageCarousel}></Route>
           <Route exact path="/abt" component={AboutUs}></Route>
           <Route exact path="/about" component={AboutPage}></Route>
+
+          {/* dashboard */}
+          <Route exact path="/blooddash" component={BloodDash}></Route>
+          <Route exact path="/login" component={Login}></Route>
+          <Route exact path="/request" component={RequestBlood}></Route>
+          <Route exact path="/donate" component={DonateBlood}></Route>
+          <Route exact path="/medDash" component={MedicineDash}></Route>
+
+          
+
+
+
+
 
           
 

@@ -8,17 +8,20 @@ const Sidebar = () => {
     <aside className="sidebar">
       <h2>Svasthya</h2>
       <ul>
-      <Link to="#">
+      <Link to="/dashboard">
       <li>Dashboard</li>
       </Link>
-      <Link to="#">
+      <Link to="/blooddash">
       <li>Blood</li>
       </Link>
-      <Link to="#">
+      <Link to="/meddash">
       <li>Medicine</li>
       </Link>
-        {/* Add more items as needed */}
+   
       </ul>
+      <Link to="/">
+        <button className='button-dash'>Logout</button>
+      </Link>
     </aside>
   );
 };

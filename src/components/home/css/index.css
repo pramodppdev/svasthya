@@ -1,14 +1,14 @@
-.container-wrapper {
+.container-wrapper-land {
   
     align-items: center;
   }
   
-  .container {
+  .container-land {
     width: 100%;
   }
   
   @media screen and (max-width: 600px) {
-    .container {
+    .container-land {
         padding: auto;
         width: 100%;
     }
