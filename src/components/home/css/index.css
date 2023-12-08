@@ -1,0 +1,16 @@
+.container-wrapper {
+  
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+        padding: auto;
+        width: 100%;
+    }
+  }
+  
