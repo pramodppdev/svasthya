@@ -13,6 +13,7 @@
 
 .sidebar h2 {
   text-align: center;
+  color: beige;
 }
 
 .sidebar ul {
@@ -30,8 +31,8 @@
   border-radius: 10px 0 0 10px;
   color: #e0a919;
 }
-.sidebar button{
-margin-right: 10px;
+.sidebar .button-dash{
+margin-left: 60px;
 background-color: transparent;
 border: 2px solid beige;
 color: beige;
@@ -54,8 +55,8 @@ color: beige;
     color: beige;
     
   }
- .sidebar button{
-  margin-left: 135px;
+ .sidebar .button-dash{
+  margin-left: 150px;
   border-radius: 5px;
  
  }

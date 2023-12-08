@@ -1,4 +1,4 @@
-.container{
+.container-login{
     margin-left: 38%;
     width: fit-content;
     height: 100%;
@@ -6,25 +6,23 @@
     margin-top: 210px;
    
 }
-.form-container{
+.form-container-login{
     padding: 25px;
     padding-right: 38px;
     background-color: transparent;
 
-    height: 200px;
+    height: 100%;
     width: 200px;
     border-radius: 10px;
     border: 2px solid #e0a919;
     margin-right: 20px;
   
 }
-body{
-    background-color: beige;
-}
+
 h2{
     text-align: center;
 }
-input{
+.input-login{
     width: 100%;
     padding: 7px;
     outline: none;
@@ -33,16 +31,16 @@ input{
 
 
 }
-input:hover,
-input:active,
-input:focus{
+.input-login:hover,
+.input-login:active,
+.input-login:focus{
     border: 2px solid #e0a919;
 }
 
-label{
+.label-login{
     float: inline-start;
 }
-button{
+.button-login{
     margin-left:60px ;
     margin-top: 20px;
   padding: 5px 30px 5px 30px;
@@ -54,8 +52,8 @@ button{
 }
 
 @media (max-width: 770px) {
-    .container{
-        margin-left: 5%;
+    .container-login{
+        margin-left: 12%;
         width: fit-content;
         height: 100%;
        

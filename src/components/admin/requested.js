@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import './dashboard.css'
 
 
-const Request= () => {
+const RequestBlood= () => {
   return (
    
     <div className="dashboard-container">
@@ -22,13 +22,13 @@ const Request= () => {
       <tbody>
      
         <tr>
-          <td data-label="Name">John Doe</td>
+          <td data-label="Name">Raj</td>
           <td data-label="Blood Type">O+</td>
-          <td data-label="Quantity">3</td>
+          <td data-label="Quantity">2</td>
           <td data-label="Hospital">City Hospital</td>
         </tr>
         <tr>
-          <td data-label="Name">Jane Smith</td>
+          <td data-label="Name">Raghava</td>
           <td data-label="Blood Type">A-</td>
           <td data-label="Quantity">2</td>
           <td data-label="Hospital">Community Medical Center</td>
@@ -43,4 +43,4 @@ const Request= () => {
   );
 };
 
-export default Request;
+export default RequestBlood;

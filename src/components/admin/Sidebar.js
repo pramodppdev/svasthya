@@ -11,17 +11,16 @@ const Sidebar = () => {
       <Link to="/dashboard">
       <li>Dashboard</li>
       </Link>
-      <Link to="/blood">
+      <Link to="/blooddash">
       <li>Blood</li>
       </Link>
-      <Link to="/medicine">
+      <Link to="/meddash">
       <li>Medicine</li>
       </Link>
    
-        {/* Add more items as needed */}
       </ul>
       <Link to="/">
-        <button>Logout</button>
+        <button className='button-dash'>Logout</button>
       </Link>
     </aside>
   );

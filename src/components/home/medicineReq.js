@@ -24,7 +24,7 @@ const MedicineRequestForm = () => {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container-land">
       <form onSubmit={handleSubmit}>
         <label htmlFor="medicineName">Medicine Name:</label>
         <input type="text" id="medicineName" name="medicineName" value={formData.medicineName} onChange={handleChange} required />

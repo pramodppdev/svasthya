@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import './dashboard.css'
 
 
-const Medicine= () => {
+const MedicineDash= () => {
   return (
    
     <div className="dashboard-container">
@@ -43,4 +43,4 @@ const Medicine= () => {
   );
 };
 
-export default Medicine;
+export default MedicineDash;

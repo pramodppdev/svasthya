@@ -24,8 +24,8 @@ const BloodRequestForm = () => {
   };
 
   return (
-    <div className="form-container">
-      <form onSubmit={handleSubmit}>
+    <div className="form-container-land">
+      <form onSubmit={handleSubmit} >
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
 
@@ -65,7 +65,7 @@ const BloodAvailabilityTable = () => {
   ];
 
   return (
-    <div className="table-container">
+    <div className="table-container-land">
       <table>
         <thead>
           <tr>
@@ -92,7 +92,7 @@ const BloodDonationApp = () => {
   const [activeTab, setActiveTab] = useState('bloodRequest');
 
   return (
-    <div className="app-container">
+    <div className="app-container-land">
       <div className="tabs">
         <button onClick={() => setActiveTab('bloodRequest')} className={activeTab === 'bloodRequest' ? 'active' : ''}>
           Blood Request
@@ -101,7 +101,7 @@ const BloodDonationApp = () => {
           Blood Availability
         </button>
       </div>
-      <div className="content-container">
+      <div className="content-container-land">
         {activeTab === 'bloodRequest' ? <BloodRequestForm /> : <BloodAvailabilityTable />}
       </div>
     </div>

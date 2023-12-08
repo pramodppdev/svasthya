@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import './dashboard.css'
 
 
-const Donate= () => {
+const DonateBlood= () => {
   return (
    
     <div className="dashboard-container">
@@ -31,7 +31,7 @@ const Donate= () => {
         </tr>
         <tr>
           <td data-label="Name">Pramod Raj</td>
-          <td data-label="Blood Type"></td>
+          <td data-label="Blood Type">O +ve</td>
           <td data-label="Quantity">2</td>
           <td data-label="Donation Date">2023-02-20</td>
           <td data-label="Hospital">Community Medical Center</td>
@@ -46,4 +46,4 @@ const Donate= () => {
   );
 };
 
-export default Donate;
+export default DonateBlood;

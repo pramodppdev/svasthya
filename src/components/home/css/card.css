@@ -1,11 +1,11 @@
-.card-container {
+.card-container-land {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
     background-color: #f6f6f6;
   }
   
-  .card {
+  .card-land {
     border: 1px solid #ccc;
     background-color: #e9eef0;
     border-radius: 8px;
@@ -17,20 +17,20 @@
   }
   
 
-  .card img {
+  .card-land img {
     border-radius: 10px;
     width: 250px;
     margin: 10px;
     height: 250px;
   }
   
-  .card-row {
+  .card-row-land {
     padding: 10px;
     text-align: center;
   }
   
   @media screen and (max-width: 600px) {
-    .card-container {
+    .card-container-land {
       flex-direction: column;
       align-items: center;
     }

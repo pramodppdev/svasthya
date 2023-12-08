@@ -4,7 +4,7 @@ import './dashboard.css'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
-const Blood = () => {
+const BloodDash = () => {
   return (
    
     <div className="dashboard-container">
@@ -28,4 +28,4 @@ const Blood = () => {
   );
 };
 
-export default Blood;
+export default BloodDash;

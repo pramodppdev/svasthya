@@ -4,30 +4,23 @@ import React from 'react';
 import './login.css';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
-const BloodRequestForm = () => {
+const Login = () => {
   return (
-    <div className="container">
-    <div className="form-container">
+    <div className="container-login">
+    <div className="form-container-login">
       <h2>Login</h2>
-        <div className="form">
-            <label>Username:</label><br/>
-            <input type="text"></input>
+        <div className="form-dash">
+            <label >Username:</label><br/>
+            <input type="text" className='input-login'></input>
         </div>
-        <div className="form">
+        <div className="form-dash">
             <label>Password:</label><br/>
-            <input type="password"></input>
+            <input type="password" className='input-login'></input>
         </div>
-       <Link to="/dashboard"><button>Login</button></Link>
+       <Link to="/dashboard"><button className='button-login'>Login</button></Link>
     </div>
     </div>
   );
 };
 
-export default BloodRequestForm;
-<form >
-<label htmlFor="name">Username:</label>
-<input type="text"/>
-<label htmlFor="bloodType">Password:</label>
-<input type="password"/>
-<button type="submit">Submit</button>
-</form>
+export default Login;

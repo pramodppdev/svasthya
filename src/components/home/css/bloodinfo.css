@@ -1,4 +1,4 @@
-.app-container {
+.app-container-land {
     display: flex;
     margin-top: 120px;
     flex-direction: column;
@@ -26,13 +26,13 @@
     background-color: #333;
   }
   
-  .content-container {
+  .content-container-land {
     width: 100%;
     max-width: 800px;
   }
   
-  .form-container,
-  .table-container {
+  .form-container-land,
+  .table-container-land {
     margin-bottom: 20px;
   }
   
