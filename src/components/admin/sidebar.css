@@ -32,6 +32,9 @@
 }
 .sidebar button{
 margin-right: 10px;
+background-color: transparent;
+border: 2px solid beige;
+color: beige;
 }
 
 .sidebar a{
@@ -44,11 +47,16 @@ margin-right: 10px;
     width: 1200px;
     position: relative;
     margin-bottom: 10px;
-    height: 200px;
+    height: 260px;
   }
   .sidebar li:hover{
     background-color: #e0a919;
     color: beige;
     
   }
+ .sidebar button{
+  margin-left: 135px;
+  border-radius: 5px;
+ 
+ }
 }
