@@ -9,6 +9,8 @@ import CardView from './components/home/card_view';
 import BlogPostCard from './components/home/blogPost';
 import BlogData from './components/home/blog';
 import Index from './components/home';
+import BloodDonationApp from './components/home/Bloodinfo';
+import MedicineRequestForm from './components/home/medicineReq';
 
 function App() {
   return (
@@ -22,6 +24,10 @@ function App() {
           <Route exact path="/card" component={CardView}></Route>
           <Route exact path="/blogpost" component={BlogPostCard}></Route>
           <Route exact path="/blog" component={BlogData}></Route>
+          <Route exact path="/bloodinfo" component={BloodDonationApp}></Route>
+          <Route exact path="/medicine" component={MedicineRequestForm}></Route>
+
+
 
 
 
