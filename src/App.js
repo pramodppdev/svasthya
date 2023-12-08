@@ -13,6 +13,9 @@ import BloodDonationApp from './components/home/Bloodinfo';
 import MedicineRequestForm from './components/home/medicineReq';
 import Blood from './components/home/blood';
 import MedicinePage from './components/home/medicine';
+import ImageCarousel from './components/home/coursel';
+import AboutUs from './components/home/about';
+import AboutPage from './components/home/abtPage';
 
 function App() {
   return (
@@ -30,6 +33,14 @@ function App() {
           <Route exact path="/medicinereq" component={MedicineRequestForm}></Route>
           <Route exact path="/blood" component={Blood}></Route>
           <Route exact path="/medicine" component={MedicinePage}></Route>
+          <Route exact path="/img" component={ImageCarousel}></Route>
+          <Route exact path="/abt" component={AboutUs}></Route>
+          <Route exact path="/about" component={AboutPage}></Route>
+
+          
+
+
+
 
 
 

@@ -13,6 +13,7 @@
 
 .left-column {
   flex: 1;
+  
 }
 
 .right-column {
@@ -21,6 +22,7 @@
 
 .name {
   font-size: 2.2em;
+  
 }
 
 .menu-list {
@@ -33,14 +35,19 @@
 .menu-list li {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 25px;
-  margin-right: 20px;
+  padding-right: 10px;
+  margin-right: 22px;
   cursor: pointer;
 }
+.menu-list a{
+  text-decoration: none;
+  color: beige;
+}
 
-.menu-list li:hover {
-  margin-right: 20px;
+.menu-list li:hover,
+.menu-list li:active {
   cursor: pointer;
+  border-bottom: 1px solid beige;
 }
 
 @media screen and (max-width: 600px) {
@@ -50,7 +57,7 @@
     padding: auto;
   }
 
-  .left-column,
+ 
   .right-column {
     width: 100%;
     margin-bottom: 10px;

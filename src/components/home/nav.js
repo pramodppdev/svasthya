@@ -8,14 +8,13 @@ const TopNavbar = () => {
     <div className="top-navbar">
       <div className="left-column">
         <span className="name">Svasthya</span>
-        
       </div>
       <div className="right-column">
         <ul className="menu-list">
-          <li>Home</li>
-          <li>Blog</li>
-          <li>About</li>
-          <li>Contact</li>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/blog"><li>Blog</li></Link>
+          <Link to="/about"><li>About</li></Link>
+          <Link to="/dashboard"><li>Dashboard</li></Link>
         </ul>
       </div>
     </div>

@@ -1,17 +1,18 @@
 import React from 'react';
 import './css/blogpost.css';
+import Img1 from './imgs/img1.jpeg'
 
 const BlogPostCard = () => {
   return (
     <div className="blog-post-card">
       <div className="card-row">
-        <img src="https://placekitten.com/300/200" alt="Blog Post" />
+        <img src={Img1} alt="Blog Post" />
       </div>
       <div className="card-row">
         <div className="post-details">
-          <h2>Blog Post Title</h2>
+          <h2>Wellness</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Wellness encompasses the holistic balance of physical, mental, and emotional well-being. It involves conscious choices and practices that promote a healthy lifestyle, including regular exercise, nutritious eating, and adequate rest. Prioritizing wellness fosters resilience, reduces stress, and enhances overall quality of life. By nurturing both mind and body, individuals can achieve a state of harmony that positively impacts their daily experiences and long-term health. Embracing wellness is a journey towards self-care and self-discovery.
           </p>
         </div>
       </div>
@@ -23,11 +24,11 @@ const BlogPostCard = () => {
           </div>
           <div className="meta-column">
             <span>Category</span>
-            <p>Tech</p>
+            <p>Health and Wellness</p>
           </div>
           <div className="meta-column">
             <span>Author</span>
-            <p>John Doe</p>
+            <p>Raj K</p>
           </div>
         </div>
       </div>
@@ -36,3 +37,5 @@ const BlogPostCard = () => {
 };
 
 export default BlogPostCard;
+
+

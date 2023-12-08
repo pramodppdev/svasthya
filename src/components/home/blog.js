@@ -5,6 +5,8 @@ import './css/blog.css';
 import BlogPostCard from './blogPost';
 import TopNavbar from './nav';
 import Footer from './footer';
+import BlogPostCard1 from './BlogPost1';
+import BlogPostCard2 from './blopPost2';
 
 const BlogPostContainer = () => {
   return (
@@ -19,16 +21,14 @@ const BlogPostContainer = () => {
             <BlogPostCard />
           </div>
           <div className="column">
-            <BlogPostCard />
+            <BlogPostCard1 />
           </div>
         </div>
         <div className="row">
           <div className="column">
-            <BlogPostCard />
+            <BlogPostCard2 />
           </div>
-          <div className="column">
-            <BlogPostCard />
-          </div>
+         
         </div>
       </div>
       <div>

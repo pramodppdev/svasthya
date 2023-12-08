@@ -19,6 +19,9 @@ const Footer = () => {
         <p>
           <a href='/dashboard'>Carrers</a>
         </p>
+        <p>
+          <a href='/about'>About us</a>
+        </p>
 
       </div>
       <div className="footer-column">
