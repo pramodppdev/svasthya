@@ -33,7 +33,7 @@
 .menu-list li {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-ri: 10px;
+  padding-right: 25px;
   margin-right: 20px;
   cursor: pointer;
 }
@@ -47,6 +47,7 @@
   .top-navbar {
     flex-direction: column;
     text-align: center;
+    padding: auto;
   }
 
   .left-column,

@@ -1,9 +1,10 @@
 .footer {
     display: flex;
     justify-content: space-around;
-    background-color: #9f9c9c;
-    color: #fff;
+    background-color: #e6e5e5;
+    color: #141111;
     padding: 20px;
+    height: 50vh;
   }
   
   .footer-column {
@@ -14,7 +15,7 @@
 
   .footer-column a{
     text-decoration: none;
-    color: #fff;
+    color: #312d2d;
 
   }
 
@@ -35,7 +36,7 @@
   }
   .social-icon {
     font-size: 1.5em;
-    color: #fff;
+    color: #cfb4b4;
     text-decoration: none;
     margin: 0 10px;
   }

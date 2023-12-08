@@ -32,6 +32,9 @@ const MedicineRequestForm = () => {
         <label htmlFor="medicineComposition">Medicine Composition:</label>
         <input type="text" id="medicineComposition" name="medicineComposition" value={formData.medicineComposition} onChange={handleChange} required />
 
+        <label htmlFor="medicineComposition">Prescibed  Doctor Name:</label>
+        <input type="text" id="medicineComposition" name="medicineComposition" value={formData.medicineComposition} onChange={handleChange} required />
+
         <label htmlFor="quantitiesRequired">Quantities Required:</label>
         <select id="quantitiesRequired" name="quantitiesRequired" value={formData.quantitiesRequired} onChange={handleChange}>
           {Array.from({ length: 20 }, (_, index) => index + 1).map((quantity) => (

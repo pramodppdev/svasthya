@@ -1,10 +1,10 @@
 import React from 'react';
 import './css/index.css';
 import TopNavbar from './nav';
-import CardView from './card_view';
+import BloodDonationApp from './Bloodinfo';
 import Footer from './footer';
 
-const Index = () => {
+const Blood = () => {
   return (
     <div className="container-wrapper">
       <div className="container">
@@ -13,7 +13,7 @@ const Index = () => {
       </div>
 
       <div className="container">
-        <CardView/>
+        <BloodDonationApp/>
       </div>
 
       <div className="container">
@@ -26,4 +26,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Blood;

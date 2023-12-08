@@ -2,12 +2,12 @@
     margin-top: 120px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(233, 224, 212);
+    background-color: #f6f6f6;
   }
   
   .card {
     border: 1px solid #ccc;
-    background-color: rgb(211, 213, 214);
+    background-color: #e9eef0;
     border-radius: 8px;
     overflow: hidden;
     margin: 50px;

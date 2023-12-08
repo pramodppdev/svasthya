@@ -11,6 +11,8 @@ import BlogData from './components/home/blog';
 import Index from './components/home';
 import BloodDonationApp from './components/home/Bloodinfo';
 import MedicineRequestForm from './components/home/medicineReq';
+import Blood from './components/home/blood';
+import MedicinePage from './components/home/medicine';
 
 function App() {
   return (
@@ -25,7 +27,11 @@ function App() {
           <Route exact path="/blogpost" component={BlogPostCard}></Route>
           <Route exact path="/blog" component={BlogData}></Route>
           <Route exact path="/bloodinfo" component={BloodDonationApp}></Route>
-          <Route exact path="/medicine" component={MedicineRequestForm}></Route>
+          <Route exact path="/medicinereq" component={MedicineRequestForm}></Route>
+          <Route exact path="/blood" component={Blood}></Route>
+          <Route exact path="/medicine" component={MedicinePage}></Route>
+
+
 
 
 
